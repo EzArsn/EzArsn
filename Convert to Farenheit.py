@@ -3,5 +3,6 @@ def main():
     c=input()
     c=float(c)
     f=1.8*c+32
-    print(f"The temperature in farenheit is {f}F")
+		k=c+273.15
+    print(f"The temperature in farenheit is {f}F and in Kelvin is {k}K")
 main()
